@@ -1,0 +1,29 @@
+.blog-page {
+  display: flex;
+}
+
+.blog-details {
+  flex: 9;
+  border: 1px solid black;
+  margin: 2px;
+  padding: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar {
+  flex: 3;
+  border: 1px solid black;
+  margin: 2px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .blog-page {
+    flex-direction: column;
+  }
+
+  .blog-details {
+    padding: 40px;
+  }
+}

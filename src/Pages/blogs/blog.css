@@ -1,0 +1,23 @@
+.blog {
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-img {
+  padding: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.blog-content {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 768px) {
+  .blog-img {
+    padding-left: 80px;
+    padding-right: 80px;
+    height: auto;
+  }
+}
