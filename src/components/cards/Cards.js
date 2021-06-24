@@ -19,7 +19,7 @@ function Cards() {
               src="images/qkd-2.jpeg"
               text="Simple Proof of Security of the BB84 Quantum Key Distribution Protocol"
               label="QKD"
-              path="/services"
+              path="/blogs/2"
             />
           </ul>
           <ul className="cards__items">
