@@ -4,7 +4,7 @@
 
 .blog-details {
   flex: 9;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: 2px;
   padding: 80px;
   align-items: center;
@@ -12,13 +12,25 @@
 }
 
 .sidebar {
-  flex: 3;
-  border: 1px solid black;
+  flex: 2;
+  /* border: 1px solid black; */
   margin: 2px;
-  padding: 10px;
+  padding: 5px;
+  padding-right: 5px;
+  padding-top: 70px;
 }
 
 @media screen and (max-width: 768px) {
+  .blog-page {
+    flex-direction: column;
+  }
+
+  .blog-details {
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width:1238px){
   .blog-page {
     flex-direction: column;
   }
