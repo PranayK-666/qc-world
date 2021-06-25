@@ -13,22 +13,19 @@ export default function SinglePost() {
           src="https://logodownload.org/wp-content/uploads/2014/04/ibm-logo.png"
           alt=""
         />
+        <br />
+        <br />
+        <br />
         <h1 className="singlePostTitle">
         How IBM is revolutining the quantum world
-          <div className="singlePostEdit">
+          {/* <div className="singlePostEdit">
             <i className="singlePostIcon far fa-edit"></i>
             <i className="singlePostIcon far fa-trash-alt"></i>
-          </div>
+          </div> */}
         </h1>
+        <br />
         <div className="singlePostInfo">
-          <span>
-            Author:
-            <b className="singlePostAuthor">
-              <Link className="link" to="/posts?username=Safak">
-                Neo
-              </Link>
-            </b>
-          </span>
+
           <span>1 day ago</span>
         </div>
         <p className="singlePostDesc">
