@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import "./blog2.css";
+// import { Link } from "react-router-dom";
+import './blog2.css';
 import img_main from '../../assets/img/ibmq.jpeg';
 import img_2 from '../../assets/img/circuit-composer.png';
 import img_4 from '../../assets/img/summerschool.png';
@@ -17,7 +17,7 @@ export default function SinglePost() {
         <br />
         <br />
         <h1 className="singlePostTitle">
-        How IBM is revolutining the quantum world
+          How IBM is revolutining the quantum world
           {/* <div className="singlePostEdit">
             <i className="singlePostIcon far fa-edit"></i>
             <i className="singlePostIcon far fa-trash-alt"></i>
@@ -25,7 +25,6 @@ export default function SinglePost() {
         </h1>
         <br />
         <div className="singlePostInfo">
-
           <span>1 day ago</span>
         </div>
         <p className="singlePostDesc">
@@ -37,15 +36,14 @@ export default function SinglePost() {
           rules of quantum mechanics, which leads them to their peculiar
           behaviour.
         </p>
-          <br />
+        <br />
         <p className="parastyle">
           These devices have shown very promising applications in the past
           couple of years: from something a little obvious like solving linear
           equations in machine learning to like making vaccines.
         </p>
-        <br>
-        </br>
-        <img className="blog-img" src={img_main} alt=""/>
+        <br></br>
+        <img className="blog-img" src={img_main} alt="" />
         <p className="parastyle">
           Keeping these applications in focus the industry is at a big boom with
           all the tech giants wanting to get their hands on commercializable
@@ -57,7 +55,7 @@ export default function SinglePost() {
           softwares, quantum algorithms and much more.
         </p>
         <br />
-        <br />        
+        <br />
         <h3 className="blog-heading">Recent Progress</h3>
         <p className="parastyle">
           As a lot of research is being done all over the globe in this area, we

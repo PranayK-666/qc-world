@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import TeamMember from '../teamMember/TeamMember';
 import writer from '../../assets/img/writer.png';
 import developer from '../../assets/img/developer.jpg';
+import developer2 from '../../assets/img/developer2.jpg';
 
 function Footer() {
   return (
@@ -26,6 +27,15 @@ function Footer() {
               about="Content Writer"
               github="https://github.com/singhmeet11"
               img={writer}
+            />
+          </div>
+          <div class="footer-link-items">
+            <TeamMember
+              name="Priyansh Tyagi"
+              about="Developer"
+              github="https://github.com/priyanshty19"
+              linkedin="https://www.linkedin.com/in/priyanshtyagi"
+              img={developer2}
             />
           </div>
         </div>
