@@ -20,10 +20,11 @@ const BlogDetails = () => {
 
   return (
     <div className="blog-page">
-      <div className="blog-details"> {blogs[id - 1].name}</div>
       <div className="sidebar">
         <SideBar />
       </div>
+      <div className="blog-details"> {blogs[id - 1].name}</div>
+      <div className="sidebar">. </div>
     </div>
   );
 };

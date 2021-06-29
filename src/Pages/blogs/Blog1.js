@@ -6,7 +6,7 @@ import img_4 from '../../assets/img/summerschool.png';
 const Blog1 = () => {
   return (
     <div className="blog">
-      <h1 className="blog-title">How IBM is revolutining the quantum world</h1>
+      <p className="blog-title">How IBM is revolutining the quantum world</p>
       <div className="blog-content">
         <p>
           Quantum Computers use the “weirdness” of quantum mechanics to do
