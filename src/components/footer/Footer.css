@@ -135,9 +135,17 @@
   margin-bottom: 16px;
 }
 
+.rights {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
 .website-rights {
   color: #fff;
-  margin-bottom: 16px;
+  margin-bottom: 2px;
 }
 
 .team {

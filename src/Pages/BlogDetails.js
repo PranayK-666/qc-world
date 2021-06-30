@@ -24,7 +24,7 @@ const BlogDetails = () => {
         <SideBar />
       </div>
       <div className="blog-details"> {blogs[id - 1].name}</div>
-      <div className="sidebar">. </div>
+      <div className="sidebar"></div>
     </div>
   );
 };

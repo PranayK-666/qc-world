@@ -16,7 +16,8 @@ const HeroSection = () => {
           buttonSize="btn--large"
           onClick=""
         >
-          SUBMIT A BLOG <i class="external-icon fas fa-external-link-alt" />
+          SUBMIT A BLOG
+          {/* <i class="external-icon fas fa-external-link-alt" /> */}
         </Button>
         <Button
           className="btns"
@@ -24,7 +25,8 @@ const HeroSection = () => {
           buttonSize="btn--large"
           onClick="/#blog-cards"
         >
-          GET STARTED <i class="down-arrow fas fa-arrow-down"></i>
+          GET STARTED
+          {/* <i class="down-arrow fas fa-arrow-down"></i> */}
         </Button>
       </div>
     </div>

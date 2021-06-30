@@ -33,7 +33,7 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            QC World <i className="fas fa-microchip" />
+            Quantum World <i className="fas fa-microchip" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -86,7 +86,8 @@ const Navbar = () => {
               target="_blank"
               buttonStyle="btn--outline"
             >
-              SUBMIT A BLOG <i class="external-icon fas fa-external-link-alt" />
+              SUBMIT A BLOG
+              {/* <i class="external-icon fas fa-external-link-alt" /> */}
             </Button>
           )}
         </div>

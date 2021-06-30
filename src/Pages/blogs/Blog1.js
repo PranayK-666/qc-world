@@ -2,6 +2,7 @@ import './blog.css';
 import img_main from '../../assets/img/ibmq.jpeg';
 import img_2 from '../../assets/img/circuit-composer.png';
 import img_4 from '../../assets/img/summerschool.png';
+import Image from '../../components/UI/Image/Image';
 
 const Blog1 = () => {
   return (
@@ -32,7 +33,12 @@ const Blog1 = () => {
           various fields such as finance, machine learning, multiphysics
           softwares, quantum algorithms and much more.
         </p>
-        <img className="blog-img" src={img_main} alt="" />
+        <Image
+          imgName={img_main}
+          imgCaption="IBM Quantum Computer"
+          imgSource="https://www.google.com/imgres?imgurl=https%3A%2F%2Fventurebeat.com%2Fwp-content%2Fuploads%2F2019%2F07%2Fq2.jpg%3Fw%3D1200%26strip%3Dall&imgrefurl=https%3A%2F%2Fventurebeat.com%2F2021%2F04%2F09%2Fibm-releases-qiskit-modules-that-use-quantum-computers-to-improve-machine-learning%2F&tbnid=dTic8k98XNT7YM&vet=12ahUKEwi82sa2soHxAhUa0HMBHc0OB-MQMygCegUIARC_AQ..i&docid=FoTu-fkPlh2WbM&w=1200&h=900&q=quantum%20computer%20ibm&ved=2ahUKEwi82sa2soHxAhUa0HMBHc0OB-MQMygCegUIARC_AQ"
+        />
+        {/* <img className="blog-img" src={img_main} alt="" /> */}
         <h3 className="blog-heading">Recent Progress</h3>
         <p>
           As a lot of research is being done all over the globe in this area, we
