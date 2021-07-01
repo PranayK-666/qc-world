@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/qc-world/static/css/main.008cfb6a.chunk.css",
+    "main.js": "/qc-world/static/js/main.b4bbb0ac.chunk.js",
+    "main.js.map": "/qc-world/static/js/main.b4bbb0ac.chunk.js.map",
+    "runtime-main.js": "/qc-world/static/js/runtime-main.b78395be.js",
+    "runtime-main.js.map": "/qc-world/static/js/runtime-main.b78395be.js.map",
+    "static/js/2.cf884f5b.chunk.js": "/qc-world/static/js/2.cf884f5b.chunk.js",
+    "static/js/2.cf884f5b.chunk.js.map": "/qc-world/static/js/2.cf884f5b.chunk.js.map",
+    "index.html": "/qc-world/index.html",
+    "static/css/main.008cfb6a.chunk.css.map": "/qc-world/static/css/main.008cfb6a.chunk.css.map",
+    "static/js/2.cf884f5b.chunk.js.LICENSE.txt": "/qc-world/static/js/2.cf884f5b.chunk.js.LICENSE.txt",
+    "static/media/circuit-composer.86761df6.png": "/qc-world/static/media/circuit-composer.86761df6.png",
+    "static/media/developer.50172522.jpg": "/qc-world/static/media/developer.50172522.jpg",
+    "static/media/developer2.94c15f5e.jpg": "/qc-world/static/media/developer2.94c15f5e.jpg",
+    "static/media/ibmq.8896c58a.jpeg": "/qc-world/static/media/ibmq.8896c58a.jpeg",
+    "static/media/summerschool.2a832a4f.png": "/qc-world/static/media/summerschool.2a832a4f.png",
+    "static/media/writer.97730e8f.png": "/qc-world/static/media/writer.97730e8f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b78395be.js",
+    "static/js/2.cf884f5b.chunk.js",
+    "static/css/main.008cfb6a.chunk.css",
+    "static/js/main.b4bbb0ac.chunk.js"
+  ]
+}
