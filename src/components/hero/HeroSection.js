@@ -1,11 +1,12 @@
 import { Button } from '../UI/Button/Button';
 import '../../App.css';
 import './HeroSection.css';
+import heroVideo from '../../assets/video/video-earth.mp4';
 
 const HeroSection = () => {
   return (
     <div id="hero" className="hero-container">
-      <video src="/videos/video-earth.mp4" autoPlay loop muted />
+      <video src={heroVideo} autoPlay loop muted />
       <h1>WELCOME TO THE QUANTUM WORLD</h1>
       <p>Read awesome blogs !</p>
       <p>Checkout informative resources !</p>

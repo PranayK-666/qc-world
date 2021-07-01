@@ -1,6 +1,7 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+import img1 from '../../assets/img/ibmq.jpeg';
 
 function Cards() {
   return (
@@ -10,7 +11,7 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="images/ibmq.jpeg"
+              src={img1}
               text="How IBM is revolutining the quantum world"
               label="IBMQ"
               path="/blogs/1"
