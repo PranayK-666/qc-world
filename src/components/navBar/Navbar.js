@@ -6,6 +6,7 @@ import './Navbar.css';
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
+  const [navbar, setNavabr] = useState(false);
 
   const handleClick = () => {
     setClick(!click);
@@ -28,9 +29,19 @@ const Navbar = () => {
 
   window.addEventListener('resize', showButton);
 
+  const changeBackground = () => {
+    if (window.scrollY >= 80) {
+      setNavabr(true);
+    } else {
+      setNavabr(false);
+    }
+  };
+
+  window.addEventListener('scroll', changeBackground);
+
   return (
     <>
-      <nav className="navbar">
+      <nav className={navbar ? 'navbar active' : 'navbar'}>
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             Quantum World <i className="fas fa-microchip" />

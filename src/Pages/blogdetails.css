@@ -39,3 +39,10 @@
     padding: 40px;
   }
 }
+
+@media screen and (min-width: 1238px) {
+  .sidebar {
+    position: sticky;
+    top: 100px;
+  }
+}
