@@ -1,8 +1,10 @@
+import './blog.css';
+
 const Blog6 = () => {
   return (
     <div className="blog">
       <p className="blog-title">Quantum Computers and NP-hard problems</p>
-      <div className="blog-conetnt">
+      <div className="blog-content">
         <p>
           Imagine that your mom’s birthday is approaching and you want to buy
           her an expensive gift, to show how much you love her. But because you
@@ -94,7 +96,56 @@ const Blog6 = () => {
         <p>
           <strong>Problem</strong>
         </p>
-        <p></p>
+        <h3 className="blog-heading">References</h3>
+        <ul>
+          <li>
+            <a
+              href="https://en.wikipedia.org/wiki/NP-completeness"
+              target="_blank"
+              rel="noreferrer"
+            >
+              NP-completeness, wikipedia
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://physicsworld.com/a/quantum-algorithm-provides-new-approach-to-np-hard-problem/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Quantum algorithm provides new approach to NP-hard problem,
+              PhysicsWorld
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://medium.com/coinmonks/quantum-np-complete-no-problem-9fd5d5f8b2e0"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Quantum + NP-Complete = No problem, Medium.com
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://qiskit.org/textbook/ch-applications/satisfiability-grover.html"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Solving Satisfiability Problems using Grover's Algorithm, Qiskit
+              Textbook
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://qiskit.org/documentation/stable/0.24/tutorials/algorithms/08_grover_examples.html"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Grover’s algorithm examples, Qiskit documentation
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   );

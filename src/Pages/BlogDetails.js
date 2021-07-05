@@ -4,6 +4,7 @@ import Blog2 from './blogs/Blog2';
 import Blog3 from './blogs/Blog3';
 import Blog4 from './blogs/Blog4';
 import Blog5 from './blogs/Blog5';
+import Blog6 from './blogs/Blog6';
 import SideBar from '../components/sidebar/SideBar';
 import './blogdetails.css';
 
@@ -30,6 +31,10 @@ const BlogDetails = () => {
     {
       key: 5,
       name: <Blog5 />,
+    },
+    {
+      key: 6,
+      name: <Blog6 />,
     },
   ];
 

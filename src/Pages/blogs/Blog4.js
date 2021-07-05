@@ -1,6 +1,7 @@
 import './blog.css';
 import quantumComputer from '../../assets/img/quantum-computer.jpeg';
 import interatomicDistance from '../../assets/img/interatomic-distance.png';
+import labAnimal from '../../assets/img/lab-animal.jpeg';
 import Image from '../../components/UI/Image/Image';
 
 const Blog4 = () => {
@@ -30,7 +31,7 @@ const Blog4 = () => {
           Inefficient.
         </p>
         <Image
-          imgName={''}
+          imgName={labAnimal}
           imgCaption="Dogs are one of the common test subjects"
           imgSource="https://www.hsi.org/news-media/about/"
         />
