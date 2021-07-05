@@ -1,4 +1,3 @@
-// import { Link } from "react-router-dom";
 import './blog2.css';
 import img_main from '../../assets/img/ibmq.jpeg';
 import img_2 from '../../assets/img/circuit-composer.png';
@@ -18,10 +17,6 @@ export default function SinglePost() {
         <br />
         <h1 className="singlePostTitle">
           How IBM is revolutining the quantum world
-          {/* <div className="singlePostEdit">
-            <i className="singlePostIcon far fa-edit"></i>
-            <i className="singlePostIcon far fa-trash-alt"></i>
-          </div> */}
         </h1>
         <br />
         <div className="singlePostInfo">

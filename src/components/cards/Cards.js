@@ -1,7 +1,11 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
-import img1 from '../../assets/img/ibmq.jpeg';
+import npHard from '../../assets/img/np-hard.png';
+import labAnimal from '../../assets/img/lab-animal.jpeg';
+import transmon_qubit from '../../assets/img/transmon_qubit.png';
+import ibmq from '../../assets/img/ibmq.jpeg';
+import ionq from '../../assets/img/ionq.jpeg';
 
 function Cards() {
   return (
@@ -11,37 +15,38 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src={img1}
-              text="How IBM is revolutining the quantum world"
-              label="IBMQ"
-              path="/blogs/1"
+              src={labAnimal}
+              text="How quantum computers will be able to save billions of lab animals"
+              label="Quantum Simulation"
+              path="/blogs/4"
             />
             <CardItem
-              src="images/qkd-2.jpeg"
-              text="Simple Proof of Security of the BB84 Quantum Key Distribution Protocol"
-              label="QKD"
-              path="/blogs/2"
+              src={npHard}
+              text="Quantum Computers and NP-hard problems
+              "
+              label="Quantum Algorithms"
+              path="/blogs/6"
             />
           </ul>
           <ul className="cards__items">
             <CardItem
-              src="images/q-dots.jpeg"
-              text="Quantum computation with quantum dots"
-              label="Quantum Dots"
-              path="/services"
+              src={transmon_qubit}
+              text="Different types of hardware of quantum computer"
+              label="Quantum Hardware"
+              path="/blogs/3"
             />
             <CardItem
-              src="images/qc.jpeg"
-              text="Quantum Computing in the NISQ era and beyond
+              src={ibmq}
+              text="How IBM is revolutining the quantum world
               "
               label="Quantum Computing"
-              path="/products"
+              path="/blogs/1"
             />
             <CardItem
-              src="images/qubits.png"
-              text="Fast Scalable State Measurement with Superconducting Qubits"
-              label="Qubits"
-              path="/sign-up"
+              src={ionq}
+              text="Top Quantum StartUps to look out For"
+              label="Quantum Industry"
+              path="/blogs/5"
             />
           </ul>
         </div>
