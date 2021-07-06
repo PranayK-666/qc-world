@@ -11,7 +11,7 @@ import Tnc from './Pages/Tnc';
 function App() {
   return (
     <>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />

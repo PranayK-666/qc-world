@@ -1,9 +1,12 @@
 import './sidebar.css';
+import { useState } from 'react';
 import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import author from '../../assets/img/writer.png';
 
 const SideBar = () => {
+  const [sidebar, setSidebar] = useState(false);
+
   const authorStyle = {
     borderRadius: '50%',
     marginLeft: '100px',
@@ -16,8 +19,18 @@ const SideBar = () => {
     padddingTop: '20px',
   };
 
+  const changeBackground = () => {
+    if (window.scrollY >= 100 && window.scrollY <= 1000) {
+      setSidebar(true);
+    } else {
+      setSidebar(false);
+    }
+  };
+
+  window.addEventListener('scroll', changeBackground);
+
   return (
-    <div className="sidebar">
+    <div className={sidebar ? 'sidebar' : 'sidebar hide'}>
       <Card className="cardstyle">
         <Card.Img
           variant="top"

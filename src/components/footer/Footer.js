@@ -45,12 +45,12 @@ function Footer() {
         <div class="social-media-wrap">
           <Link to="/" className="social-logo">
             <div class="footer-logo">
-              Quantum-World
+              Quantum World
               <i class="fas fa-microchip" />{' '}
             </div>
           </Link>
           <div className="rights">
-            <small className="website-rights">QC-World © 2021</small>
+            <small className="website-rights">Quantum World © 2021</small>
             <smal className="website-rights">
               <Link className="website-rights" to="/tnc">
                 Terms and Conditions

@@ -81,7 +81,8 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link
                   to={{
-                    pathname: 'https://meet.google.com',
+                    pathname:
+                      'https://docs.google.com/forms/d/e/1FAIpQLSfMTVEmefmI00hnoeWHW6W9slnMh3hOWh9gjq9nsS8ltDbInQ/viewform?fbzx=-6607350273153648217',
                   }}
                   target="_blank"
                   className="nav-links"
@@ -96,13 +97,13 @@ const Navbar = () => {
           {button && (
             <Button
               onClick={{
-                pathname: 'https://meet.google.com',
+                pathname:
+                  'https://docs.google.com/forms/d/e/1FAIpQLSfMTVEmefmI00hnoeWHW6W9slnMh3hOWh9gjq9nsS8ltDbInQ/viewform?fbzx=-6607350273153648217',
               }}
               target="_blank"
               buttonStyle="btn--outline"
             >
               SUBMIT A BLOG
-              {/* <i class="external-icon fas fa-external-link-alt" /> */}
             </Button>
           )}
         </div>

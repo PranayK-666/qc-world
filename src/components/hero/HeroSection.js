@@ -17,10 +17,13 @@ const HeroSection = () => {
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
-          onClick=""
+          target="_blank"
+          onClick={{
+            pathname:
+              'https://docs.google.com/forms/d/e/1FAIpQLSfMTVEmefmI00hnoeWHW6W9slnMh3hOWh9gjq9nsS8ltDbInQ/viewform?fbzx=-6607350273153648217',
+          }}
         >
           SUBMIT A BLOG
-          {/* <i class="external-icon fas fa-external-link-alt" /> */}
         </Button>
         <Button
           className="btns"
@@ -29,7 +32,6 @@ const HeroSection = () => {
           onClick="/#blog-cards"
         >
           GET STARTED
-          {/* <i class="down-arrow fas fa-arrow-down"></i> */}
         </Button>
       </div>
     </div>

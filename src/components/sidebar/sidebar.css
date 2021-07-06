@@ -5,3 +5,7 @@
   line-height: 25px;
   flex-wrap: wrap;
 }
+
+.sidebar.hide {
+  display: none;
+}
