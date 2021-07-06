@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/qc-world/static/css/main.04ec484c.chunk.css",
-    "main.js": "/qc-world/static/js/main.b169e77f.chunk.js",
-    "main.js.map": "/qc-world/static/js/main.b169e77f.chunk.js.map",
+    "main.css": "/qc-world/static/css/main.93cea147.chunk.css",
+    "main.js": "/qc-world/static/js/main.6f294d26.chunk.js",
+    "main.js.map": "/qc-world/static/js/main.6f294d26.chunk.js.map",
     "runtime-main.js": "/qc-world/static/js/runtime-main.b78395be.js",
     "runtime-main.js.map": "/qc-world/static/js/runtime-main.b78395be.js.map",
-    "static/js/2.5b0e1fe3.chunk.js": "/qc-world/static/js/2.5b0e1fe3.chunk.js",
-    "static/js/2.5b0e1fe3.chunk.js.map": "/qc-world/static/js/2.5b0e1fe3.chunk.js.map",
+    "static/js/2.d8bcd14c.chunk.js": "/qc-world/static/js/2.d8bcd14c.chunk.js",
+    "static/js/2.d8bcd14c.chunk.js.map": "/qc-world/static/js/2.d8bcd14c.chunk.js.map",
     "index.html": "/qc-world/index.html",
-    "static/css/main.04ec484c.chunk.css.map": "/qc-world/static/css/main.04ec484c.chunk.css.map",
-    "static/js/2.5b0e1fe3.chunk.js.LICENSE.txt": "/qc-world/static/js/2.5b0e1fe3.chunk.js.LICENSE.txt",
+    "static/css/main.93cea147.chunk.css.map": "/qc-world/static/css/main.93cea147.chunk.css.map",
+    "static/js/2.d8bcd14c.chunk.js.LICENSE.txt": "/qc-world/static/js/2.d8bcd14c.chunk.js.LICENSE.txt",
     "static/media/circuit-composer.86761df6.png": "/qc-world/static/media/circuit-composer.86761df6.png",
     "static/media/developer.50172522.jpg": "/qc-world/static/media/developer.50172522.jpg",
     "static/media/developer2.94c15f5e.jpg": "/qc-world/static/media/developer2.94c15f5e.jpg",
@@ -26,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b78395be.js",
-    "static/js/2.5b0e1fe3.chunk.js",
-    "static/css/main.04ec484c.chunk.css",
-    "static/js/main.b169e77f.chunk.js"
+    "static/js/2.d8bcd14c.chunk.js",
+    "static/css/main.93cea147.chunk.css",
+    "static/js/main.6f294d26.chunk.js"
   ]
 }
