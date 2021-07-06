@@ -1,6 +1,12 @@
+import { useEffect } from 'react';
 import './blogs/blog.css';
 const Tnc = () => {
   const tncStyle = { display: 'flex' };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div style={tncStyle}>
       <div className="left" style={{ flex: 2 }}></div>

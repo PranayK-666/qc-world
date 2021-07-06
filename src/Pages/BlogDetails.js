@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Blog1 from './blogs/Blog1';
 import Blog2 from './blogs/Blog2';
@@ -37,6 +38,10 @@ const BlogDetails = () => {
       name: <Blog6 />,
     },
   ];
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="blog-page">
