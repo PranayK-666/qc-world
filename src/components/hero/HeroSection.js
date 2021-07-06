@@ -8,8 +8,10 @@ const HeroSection = () => {
     <div id="hero" className="hero-container">
       <video src={heroVideo} autoPlay loop muted />
       <h1>WELCOME TO THE QUANTUM WORLD</h1>
-      <p>Read awesome blogs !</p>
-      <p>Checkout informative resources !</p>
+      <p>
+        Your Community for reading and writing awesome blogs about Quantum
+        Computing
+      </p>
       <div className="hero-btns">
         <Button
           className="btns"

@@ -43,7 +43,11 @@ const Navbar = () => {
     <>
       <nav className={navbar ? 'navbar active' : 'navbar'}>
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+          <Link
+            to="/"
+            className={navbar ? 'navbar-logo active' : 'navbar-logo'}
+            onClick={closeMobileMenu}
+          >
             Quantum World <i className="fas fa-microchip" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>

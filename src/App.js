@@ -6,6 +6,7 @@ import Services from './Pages/Services';
 import SignUp from './Pages/SignUp';
 import BlogDetails from './Pages/BlogDetails';
 import Footer from './components/footer/Footer';
+import Tnc from './Pages/Tnc';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/blogs/:id" component={BlogDetails} />
           <Route path="/services" component={Services} />
           <Route path="/sign-up" component={SignUp} />
+          <Route path="/tnc" component={Tnc} />
         </Switch>
         <Footer />
       </Router>

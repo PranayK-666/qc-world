@@ -10,7 +10,7 @@ import ionq from '../../assets/img/ionq.jpeg';
 function Cards() {
   return (
     <div id="blog-cards" className="cards">
-      <h1>Check out these EPIC Blogs!</h1>
+      <h1>Trending</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">

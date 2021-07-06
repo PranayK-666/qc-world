@@ -1,10 +1,7 @@
-.cardstyle{
-    position:relative;
-    color: #666;
-    font-size: 18px;
-    line-height: 25px;
-    flex-wrap: wrap;
+.cardstyle {
+  position: relative;
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+  flex-wrap: wrap;
 }
-
-
-

@@ -6,13 +6,14 @@ import author from '../../assets/img/writer.png';
 const SideBar = () => {
   const authorStyle = {
     borderRadius: '50%',
-    marginLeft: '60px',
+    marginLeft: '100px',
     marginBottim: '10px',
   };
 
   const titleStyle = {
     marginLeft: '60px',
     marginTop: '10px',
+    padddingTop: '20px',
   };
 
   return (
@@ -21,10 +22,11 @@ const SideBar = () => {
         <Card.Img
           variant="top"
           src={author}
-          width="200px"
-          height="200px"
+          width="100px"
+          height="100px"
           style={authorStyle}
         />
+
         <Card.Body>
           <Card.Title className="cardstyle">
             <span style={titleStyle}>

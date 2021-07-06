@@ -52,7 +52,7 @@ function Footer() {
           <div className="rights">
             <small className="website-rights">QC-World © 2021</small>
             <smal className="website-rights">
-              <Link className="website-rights" to="/">
+              <Link className="website-rights" to="/tnc">
                 Terms and Conditions
               </Link>
             </smal>
