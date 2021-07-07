@@ -29,7 +29,7 @@ const HeroSection = () => {
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
-          onClick="/#blog-cards"
+          // onClick={executeScroll}
         >
           GET STARTED
         </Button>
