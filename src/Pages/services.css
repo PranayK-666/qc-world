@@ -1,0 +1,21 @@
+.container{
+    /* border: 2px solid red; */
+    width:100%;
+    height: 100%;
+    padding: 50px;
+}
+.description{
+    align-items: center;
+    margin: 0px;
+    padding-bottom: auto;
+    width: 800px;
+    height:auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.cardstyle{
+    /* border: 2px solid black; */
+}
+

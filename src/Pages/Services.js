@@ -1,5 +1,12 @@
-import '../App.css';
+import React from 'react'
+import { Container, Row, Col, Card, Button } from 'react-bootstrap'
+import '../Pages/services.css'
+import Blogcard from './Blogcard'
 
 export default function Services() {
-  return <h1 className="services">SERVICES</h1>;
+  return (
+    <div className="container fluid-md inline" >
+      <Blogcard />
+    </div>
+  )
 }
