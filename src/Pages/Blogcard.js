@@ -62,7 +62,7 @@ export default function Blogcard() {
           {/* <Card.Header as="h4">Parmeet Blog1</Card.Header> */}
           <Card.Body>
             {/* <Card.Title as="h3">How quantum computers will be able to save billions of lab animals</Card.Title> */}
-            <Card.Text>
+            <Card.Text className="cardinfo">
               Previous decades have witnessed new developments and advancements
               in medical technologies, healthcare facilities, cures, treatments
               for various ailments, and the production of newer
@@ -86,7 +86,7 @@ export default function Blogcard() {
           {/* <Card.Header as="h4">Parmeet Blog1</Card.Header> */}
           <Card.Body>
             {/* <Card.Title>Wasssup</Card.Title> */}
-            <Card.Text>
+            <Card.Text className="cardinfo">
               At the moment you start using your laptop, multiple processes and
               computations are performed in order to make this possible. Bits,
               registers, and logic gates are the most common types of hardware
@@ -112,7 +112,7 @@ export default function Blogcard() {
           {/* <Card.Header as="h4">Parmeet Blog1</Card.Header> */}
           <Card.Body>
             {/* <Card.Title>Wasssup</Card.Title> */}
-            <Card.Text>
+            <Card.Text className="cardinfo">
               Imagine that your mom’s birthday is approaching and you want to
               buy her an expensive gift, to show how much you love her. But
               because you are a student, you are a little low on cash. So you
@@ -135,10 +135,10 @@ export default function Blogcard() {
             label="Quantum Computing"
             path="/blogs/1"
           />
-          <Card.Header as="h4">Parmeet Blog1</Card.Header>
+          {/* <Card.Header as="h4">Parmeet Blog1</Card.Header> */}
           <Card.Body>
-            <Card.Title>Wasssup</Card.Title>
-            <Card.Text>
+            {/* <Card.Title>Wasssup</Card.Title> */}
+            <Card.Text className="cardinfo">
               Quantum Computers use the “weirdness” of quantum mechanics to do
               computations which our normal laptops or even supercomputers can
               not do in a reasonable amount of time. Unlike the classical bits
@@ -158,10 +158,10 @@ export default function Blogcard() {
             label="Quantum Industry"
             path="/blogs/5"
           />
-          <Card.Header as="h4">Parmeet Blog1</Card.Header>
+          {/* <Card.Header as="h4">Parmeet Blog1</Card.Header> */}
           <Card.Body>
-            <Card.Title>Wasssup</Card.Title>
-            <Card.Text>
+            {/* <Card.Title>Wasssup</Card.Title> */}
+            <Card.Text className="cardinfo">
               While most major firms, such as IBM and Google, are rushing to
               develop Transmon qubits, IonQ is concentrating on developing Ion
               trapped quantum computers. They claim that superconducting qubits

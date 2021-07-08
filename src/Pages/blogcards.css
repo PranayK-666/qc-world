@@ -28,6 +28,13 @@
 
 .header {
   margin: 0px;
+  font-family: 'Lora', sans-serif;
+  font-size: 4rem;
+}
+
+.cardinfo{
+  font-family: 'Varela Round', Arial, Helvetica, sans-serif;
+  color: #be9656;
 }
 
 /* .blogcards {
