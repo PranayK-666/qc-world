@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { Link } from 'react-router-dom';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 import TeamMember from '../teamMember/TeamMember';
 import writer from '../../assets/img/writer.png';
 import developer from '../../assets/img/developer.jpg';
