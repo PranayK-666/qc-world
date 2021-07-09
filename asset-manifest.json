@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/qc-world/static/css/main.b9713b0f.chunk.css",
-    "main.js": "/qc-world/static/js/main.3ab2cd2e.chunk.js",
-    "main.js.map": "/qc-world/static/js/main.3ab2cd2e.chunk.js.map",
+    "main.css": "/qc-world/static/css/main.53075386.chunk.css",
+    "main.js": "/qc-world/static/js/main.938f9174.chunk.js",
+    "main.js.map": "/qc-world/static/js/main.938f9174.chunk.js.map",
     "runtime-main.js": "/qc-world/static/js/runtime-main.b78395be.js",
     "runtime-main.js.map": "/qc-world/static/js/runtime-main.b78395be.js.map",
     "static/js/2.01cdd228.chunk.js": "/qc-world/static/js/2.01cdd228.chunk.js",
     "static/js/2.01cdd228.chunk.js.map": "/qc-world/static/js/2.01cdd228.chunk.js.map",
     "index.html": "/qc-world/index.html",
-    "static/css/main.b9713b0f.chunk.css.map": "/qc-world/static/css/main.b9713b0f.chunk.css.map",
+    "static/css/main.53075386.chunk.css.map": "/qc-world/static/css/main.53075386.chunk.css.map",
     "static/js/2.01cdd228.chunk.js.LICENSE.txt": "/qc-world/static/js/2.01cdd228.chunk.js.LICENSE.txt",
     "static/media/circuit-composer.86761df6.png": "/qc-world/static/media/circuit-composer.86761df6.png",
     "static/media/developer.50172522.jpg": "/qc-world/static/media/developer.50172522.jpg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.b78395be.js",
     "static/js/2.01cdd228.chunk.js",
-    "static/css/main.b9713b0f.chunk.css",
-    "static/js/main.3ab2cd2e.chunk.js"
+    "static/css/main.53075386.chunk.css",
+    "static/js/main.938f9174.chunk.js"
   ]
 }
