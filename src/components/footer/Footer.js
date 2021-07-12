@@ -24,7 +24,7 @@ function Footer() {
           <div class="footer-link-items">
             <TeamMember
               name="Parmeet Singh"
-              about="Content Head"
+              about="Research and Content Head"
               github="https://github.com/singhmeet11"
               img={writer}
             />
