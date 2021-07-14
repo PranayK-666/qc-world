@@ -9,6 +9,8 @@ import transmon_qubit from '../assets/img/transmon_qubit.png';
 import ibmq from '../assets/img/ibmq.jpeg';
 import ionq from '../assets/img/ionq.jpeg';
 import npHard from '../assets/img/np-hard.png';
+import Like from './Like'
+
 
 export default function Blogcard() {
   return (
@@ -71,6 +73,7 @@ export default function Blogcard() {
               medications do not have any hazardous or severe side effects on
               the Human Body....
             </Card.Text>
+            <Like />
           </Card.Body>
         </Card>
       </Link>
@@ -96,7 +99,8 @@ export default function Blogcard() {
               quantum registers and logic gates are the building blocks of these
               quantum computers.
             </Card.Text>
-          </Card.Body>
+            <Like />
+         </Card.Body>
         </Card>
       </Link>
 
@@ -122,7 +126,8 @@ export default function Blogcard() {
               down one day and try to find the most efficient route through each
               delivery location in the city, but wait!!
             </Card.Text>
-          </Card.Body>
+            <Like />
+       </Card.Body>
         </Card>
       </Link>
 
@@ -146,7 +151,8 @@ export default function Blogcard() {
               that normal computers use, Quantum computers use qubits or quantum
               bits. These qubits follow the trends of subatomic particles .
             </Card.Text>
-          </Card.Body>
+            <Like />
+      </Card.Body>
         </Card>
       </Link>
 
@@ -169,6 +175,7 @@ export default function Blogcard() {
               have shown to be error prone, their devices on the other hand trap
               individual ionized ytterbium atoms as their qubits.
             </Card.Text>
+            <Like />
           </Card.Body>
         </Card>
       </Link>
