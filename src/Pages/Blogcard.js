@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+// import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import '../Pages/blogcards.css';
 import { Link } from 'react-router-dom';
 import CardItem from '../components/cards/CardItem';
@@ -175,6 +176,72 @@ export default function Blogcard() {
               individual ionized ytterbium atoms as their qubits.
             </Card.Text>
             <Like />
+          </Card.Body>
+        </Card>
+      </Link>
+      <Link>
+        <Card className="cardstyle2">
+          <CardItem
+            className="cardstyle2"
+            src={ionq}
+            text="Top Quantum StartUps to look out For"
+            label="Quantum Industry"
+            path="/blogs/7"
+          />
+          {/* <Card.Header as="h4">Parmeet Blog1</Card.Header> */}
+          <Card.Body>
+            {/* <Card.Title>Wasssup</Card.Title> */}
+            <Card.Text className="cardinfo">
+              While most major firms, such as IBM and Google, are rushing to
+              develop Transmon qubits, IonQ is concentrating on developing Ion
+              trapped quantum computers. They claim that superconducting qubits
+              have shown to be error prone, their devices on the other hand trap
+              individual ionized ytterbium atoms as their qubits.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </Link>
+      <Link>
+        <Card className="cardstyle2">
+          <CardItem
+            className="cardstyle2"
+            src={ionq}
+            text="Top Quantum StartUps to look out For"
+            label="Quantum Industry"
+            path="/blogs/8"
+          />
+          {/* <Card.Header as="h4">Parmeet Blog1</Card.Header> */}
+          <Card.Body>
+            {/* <Card.Title>Wasssup</Card.Title> */}
+            <Card.Text className="cardinfo">
+              While most major firms, such as IBM and Google, are rushing to
+              develop Transmon qubits, IonQ is concentrating on developing Ion
+              trapped quantum computers. They claim that superconducting qubits
+              have shown to be error prone, their devices on the other hand trap
+              individual ionized ytterbium atoms as their qubits.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </Link>
+      <Link>
+        <Card className="cardstyle2">
+          <CardItem
+            className="cardstyle2"
+            src={ionq}
+            text="Top Quantum StartUps to look out For"
+            label="Quantum Industry"
+            path="/blogs/9"
+          />
+          {/* <Card.Header as="h4">Parmeet Blog1</Card.Header> */}
+          <Card.Body>
+            {/* <Card.Title>Wasssup</Card.Title> */}
+            <Card.Text className="cardinfo">
+              While most major firms, such as IBM and Google, are rushing to
+              develop Transmon qubits, IonQ is concentrating on developing Ion
+              trapped quantum computers. They claim that superconducting qubits
+              have shown to be error prone, their devices on the other hand trap
+              individual ionized ytterbium atoms as their qubits.
+            </Card.Text>
           </Card.Body>
         </Card>
       </Link>

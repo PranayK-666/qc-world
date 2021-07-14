@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import TeamMember from '../teamMember/TeamMember';
 import writer from '../../assets/img/writer.png';
 import developer from '../../assets/img/developer.jpg';
@@ -24,7 +24,7 @@ function Footer() {
           <div class="footer-link-items">
             <TeamMember
               name="Parmeet Singh"
-              about="Content Head"
+              about="Research and Content Head"
               github="https://github.com/singhmeet11"
               img={writer}
             />

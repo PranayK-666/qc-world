@@ -6,6 +6,9 @@ import Blog3 from './blogs/Blog3';
 import Blog4 from './blogs/Blog4';
 import Blog5 from './blogs/Blog5';
 import Blog6 from './blogs/Blog6';
+import Blog7 from './blogs/Blog7';
+import Blog8 from './blogs/Blog8';
+import Blog9 from './blogs/Blog9';
 import SideBar from '../components/sidebar/SideBar';
 import './blogdetails.css';
 
@@ -36,6 +39,18 @@ const BlogDetails = () => {
     {
       key: 6,
       name: <Blog6 />,
+    },
+    {
+      key: 7,
+      name: <Blog7 />,
+    },
+    {
+      key: 8,
+      name: <Blog8 />,
+    },
+    {
+      key: 9,
+      name: <Blog9 />,
     },
   ];
 
