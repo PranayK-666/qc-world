@@ -9,8 +9,10 @@ import transmon_qubit from '../assets/img/transmon_qubit.png';
 import ibmq from '../assets/img/ibmq.jpeg';
 import ionq from '../assets/img/ionq.jpeg';
 import npHard from '../assets/img/np-hard.png';
-import Like from './Like'
-
+import ckt_5 from '../assets/img/my_journey_part1_9.png';
+import drive3 from '../assets/img/my_journey_part2_3.png';
+import qp from '../assets/img/qp.jpeg';
+import Like from './Like';
 
 export default function Blogcard() {
   return (
@@ -100,7 +102,7 @@ export default function Blogcard() {
               quantum computers.
             </Card.Text>
             <Like />
-         </Card.Body>
+          </Card.Body>
         </Card>
       </Link>
 
@@ -127,7 +129,7 @@ export default function Blogcard() {
               delivery location in the city, but wait!!
             </Card.Text>
             <Like />
-       </Card.Body>
+          </Card.Body>
         </Card>
       </Link>
 
@@ -152,7 +154,7 @@ export default function Blogcard() {
               bits. These qubits follow the trends of subatomic particles .
             </Card.Text>
             <Like />
-      </Card.Body>
+          </Card.Body>
         </Card>
       </Link>
 
@@ -179,25 +181,28 @@ export default function Blogcard() {
           </Card.Body>
         </Card>
       </Link>
+
       <Link>
         <Card className="cardstyle2">
           <CardItem
             className="cardstyle2"
-            src={ionq}
-            text="Top Quantum StartUps to look out For"
-            label="Quantum Industry"
+            src={ckt_5}
+            text="My journey through the IBM Quantum Challenge 2021 - Part 1"
+            label="Quantum Challenge"
             path="/blogs/7"
           />
           {/* <Card.Header as="h4">Parmeet Blog1</Card.Header> */}
           <Card.Body>
             {/* <Card.Title>Wasssup</Card.Title> */}
             <Card.Text className="cardinfo">
-              While most major firms, such as IBM and Google, are rushing to
-              develop Transmon qubits, IonQ is concentrating on developing Ion
-              trapped quantum computers. They claim that superconducting qubits
-              have shown to be error prone, their devices on the other hand trap
-              individual ionized ytterbium atoms as their qubits.
+              May 20th marked the beginning of one of the most awesome
+              challenges in the field of Quantum Computing. The IBM Quantum
+              Challenge commemorated the history of quantum computing, as this
+              year marks the 40th anniversary of the Physics of Computation
+              Conference, where the concept of computing systems based on
+              quantum mechanics was conceived....
             </Card.Text>
+            <Like />
           </Card.Body>
         </Card>
       </Link>
@@ -205,21 +210,19 @@ export default function Blogcard() {
         <Card className="cardstyle2">
           <CardItem
             className="cardstyle2"
-            src={ionq}
-            text="Top Quantum StartUps to look out For"
-            label="Quantum Industry"
+            src={drive3}
+            text="My journey through the IBM Quantum Challenge 2021 - Part 2"
+            label="Quantum Challenge"
             path="/blogs/8"
           />
           {/* <Card.Header as="h4">Parmeet Blog1</Card.Header> */}
           <Card.Body>
             {/* <Card.Title>Wasssup</Card.Title> */}
             <Card.Text className="cardinfo">
-              While most major firms, such as IBM and Google, are rushing to
-              develop Transmon qubits, IonQ is concentrating on developing Ion
-              trapped quantum computers. They claim that superconducting qubits
-              have shown to be error prone, their devices on the other hand trap
-              individual ionized ytterbium atoms as their qubits.
+              It took me 2 days to finish the first three questions and now I
+              was up against the final two questions....
             </Card.Text>
+            <Like />
           </Card.Body>
         </Card>
       </Link>
@@ -227,21 +230,22 @@ export default function Blogcard() {
         <Card className="cardstyle2">
           <CardItem
             className="cardstyle2"
-            src={ionq}
-            text="Top Quantum StartUps to look out For"
-            label="Quantum Industry"
+            src={qp}
+            text="Which Quantum Computing language to use for starting your own Quantum
+            Journey"
+            label="Quantum Programming"
             path="/blogs/9"
           />
           {/* <Card.Header as="h4">Parmeet Blog1</Card.Header> */}
           <Card.Body>
             {/* <Card.Title>Wasssup</Card.Title> */}
             <Card.Text className="cardinfo">
-              While most major firms, such as IBM and Google, are rushing to
-              develop Transmon qubits, IonQ is concentrating on developing Ion
-              trapped quantum computers. They claim that superconducting qubits
-              have shown to be error prone, their devices on the other hand trap
-              individual ionized ytterbium atoms as their qubits.
+              Since its inception in the 1980s, quantum computing has grown at
+              an exponential rate. Until recently, being a researcher at a
+              world-class facility was the only way to get access to a real
+              Quantum Computer....
             </Card.Text>
+            <Like />
           </Card.Body>
         </Card>
       </Link>
