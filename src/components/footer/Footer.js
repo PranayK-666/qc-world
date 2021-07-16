@@ -15,7 +15,7 @@ function Footer() {
           <div class="footer-link-items">
             <TeamMember
               name="Pranay Khosla"
-              about="Developer"
+              about="Tech & Development Head"
               github="https://github.com/pranayk-666"
               linkedin="https://www.linkedin.com/in/pranay-k-50432554/"
               img={developer}
@@ -24,7 +24,7 @@ function Footer() {
           <div class="footer-link-items">
             <TeamMember
               name="Parmeet Singh"
-              about="Research and Content Head"
+              about="Research & Content Head"
               github="https://github.com/singhmeet11"
               img={writer}
             />
