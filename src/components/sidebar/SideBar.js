@@ -20,7 +20,7 @@ const SideBar = () => {
   };
 
   const changeBackground = () => {
-    if (window.scrollY >= 100 && window.scrollY <= 1000) {
+    if (window.scrollY <= 1000) {
       setSidebar(true);
     } else {
       setSidebar(false);

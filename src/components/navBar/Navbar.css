@@ -1,7 +1,7 @@
 .navbar {
-  display: none;
-  /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
-  background: inherit;
+  /* display: none; */
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  /* background: inherit; */
   height: 80px;
   display: flex;
   justify-content: center;
@@ -10,7 +10,7 @@
   position: sticky;
   top: 0;
   z-index: 999;
-  font-family: 'PT Sans', sans-serif; */
+  font-family: 'PT Sans', sans-serif;
 }
 
 .navbar.active {
