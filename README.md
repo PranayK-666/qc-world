@@ -1,4 +1,25 @@
-# Getting Started with Create React App
+# Quantum World 
+Quantum Computing is a new and emerging field, and with so much recent progress, the number of people interested has increased dramatically. We at Quantum World are committed to bringing you educational and thought-provoking stories about quantum computing. Making information freely accessible to readers so they may take a deeper look without having to read books or listen to hours of lectures.
+
+## Write with us
+
+We value posts that are creative, instructive, educational, and entertaining. These could range from your research project to potential Quantum Computing applications in the future.\
+Submit this form and we will contact you shortly - https://docs.google.com/forms/d/e/1FAIpQLSfMTVEmefmI00hnoeWHW6W9slnMh3hOWh9gjq9nsS8ltDbInQ/viewform?fbzx=-6607350273153648217
+
+#### Terms and Conditions
+Make sure to go over the Terms and Conditions before submiting your blog - https://quantumworld8.github.io/qc-world/#/tnc
+
+
+
+
+
+
+
+
+
+
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +89,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ -->
