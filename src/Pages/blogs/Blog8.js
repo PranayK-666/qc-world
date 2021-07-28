@@ -22,21 +22,19 @@ const Blog8 = () => {
         </p>
         <h3 className="blog-heading">Challenge 4 : Transmon Qubits</h3>
         <p>
-          My blog post about quantum hardware must have wormed you up to the
-          different types of ways to make physical qubits. Transmon Qubits are
-          currently the most extensively used of all the options available and a
-          lot of corporations have invested heavily in them, including IBM. The
-          major distinction between classical and quantum physics is that in
-          quantum physics, practically everything is “quantized” (I think that
-          is the reason for the name). To put it another way, properties can
-          only have discrete values. So energy is quantized in levels too, of
-          which the ground state and the first excited state of the Physical
-          Quantum system are used in the creation of qubits.
+          My blog post about quantum hardware must have warmed you up for the different 
+          types of ways of making physical qubits. Transmon Qubits are currently the most 
+          extensively used of all the options available and a lot of corporations have invested heavily in them, including IBM.
+          The major distinction between classical and quantum physics is that in quantum physics, practically everything
+          is “quantized”. To put it another way, properties can only have discrete values. So energy is quantized in levels 
+          too, of which the ground state and the first excited state of the Physical Quantum system are used in the creation of qubits.
+
         </p>
         <p>
-          The 4th challenge was to find the optimum pulse to go from the first
-          excited level to the second excited level. I don't think this is used
-          a lot for real applications but it sure was interesting.
+          If you haven’t gotten a chance to go through my approach of how I dealt with the first 3 questions, 
+          then please refer to my My journey through the IBM Quantum Challenge 2021 - Part 1 . The 4th challenge was 
+          to find the optimum pulse to go from the first excited level to the second excited level. 
+          In my opinion this is not used a lot in real-world applications but it sure was interesting. 
         </p>
         <h3 className="blog-heading">Transition frequency |0> to |1></h3>
         <p>
@@ -96,7 +94,12 @@ const Blog8 = () => {
         <p>
           Let’s take a deeper look into the Variational Quantum Eigensolver.
         </p>
-        <h3 className="blog-heading">Some cool Math</h3>
+        <h3 className="blog-heading">Insert: *Some cool maths B)*</h3>
+        <p>
+         In quantum mechanics we often use the Hamiltonian of the system and solve the eigen 
+         equations and eigenvalues for that particular hamiltonian. These eigenvalues and eigenvectors give us the energy states
+         and different wave functions of our system. Following is the molecular Hamiltonian :
+        </p>
         <Image imgName={math} />
         <p>
           If you look closely each term refers to kinetic or potential energy of
@@ -141,11 +144,9 @@ const Blog8 = () => {
         </p>
         <hr />
         <p>
-          The challenge was surely hard and time consuming but the amount of
-          knowledge that I gained over those few days was tremendous. And the
-          best part of the challenge was the happiness that you get after you
-          have worked hard. Hopefully this got you familiarized with questions
-          of IQC 2021 and I will meet you all there next year.
+          The challenge was surely tough and time consuming but the amount of knowledge that I gained over those few days was tremendous.
+          Earning the badge was a feeling I cannot put into words. Hopefully this got you familiarized with 
+          questions of IQC 2021 and I will meet you all there next year. 
         </p>
         <h3 className="blog-heading">Resources</h3>
         <ul>
