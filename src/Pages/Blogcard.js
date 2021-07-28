@@ -12,7 +12,7 @@ import npHard from '../assets/img/np-hard.png';
 import ckt_5 from '../assets/img/my_journey_part1_9.png';
 import drive3 from '../assets/img/my_journey_part2_3.png';
 import qp from '../assets/img/qp.jpeg';
-import Like from './Like';
+// import Like from './Like';
 
 export default function Blogcard() {
   return (
@@ -75,7 +75,7 @@ export default function Blogcard() {
               medications do not have any hazardous or severe side effects on
               the Human Body....
             </Card.Text>
-            <Like />
+            {/* <Like /> */}
           </Card.Body>
         </Card>
       </Link>
@@ -101,7 +101,7 @@ export default function Blogcard() {
               quantum registers and logic gates are the building blocks of these
               quantum computers.
             </Card.Text>
-            <Like />
+            {/* <Like /> */}
           </Card.Body>
         </Card>
       </Link>
@@ -128,7 +128,7 @@ export default function Blogcard() {
               down one day and try to find the most efficient route through each
               delivery location in the city, but wait!!
             </Card.Text>
-            <Like />
+            {/* <Like /> */}
           </Card.Body>
         </Card>
       </Link>
@@ -153,7 +153,7 @@ export default function Blogcard() {
               that normal computers use, Quantum computers use qubits or quantum
               bits. These qubits follow the trends of subatomic particles .
             </Card.Text>
-            <Like />
+            {/* <Like /> */}
           </Card.Body>
         </Card>
       </Link>
@@ -177,7 +177,7 @@ export default function Blogcard() {
               have shown to be error prone, their devices on the other hand trap
               individual ionized ytterbium atoms as their qubits.
             </Card.Text>
-            <Like />
+            {/* <Like /> */}
           </Card.Body>
         </Card>
       </Link>
@@ -202,7 +202,7 @@ export default function Blogcard() {
               Conference, where the concept of computing systems based on
               quantum mechanics was conceived....
             </Card.Text>
-            <Like />
+            {/* <Like /> */}
           </Card.Body>
         </Card>
       </Link>
@@ -222,7 +222,7 @@ export default function Blogcard() {
               It took me 2 days to finish the first three questions and now I
               was up against the final two questions....
             </Card.Text>
-            <Like />
+            {/* <Like /> */}
           </Card.Body>
         </Card>
       </Link>
@@ -245,7 +245,7 @@ export default function Blogcard() {
               world-class facility was the only way to get access to a real
               Quantum Computer....
             </Card.Text>
-            <Like />
+            {/* <Like /> */}
           </Card.Body>
         </Card>
       </Link>
