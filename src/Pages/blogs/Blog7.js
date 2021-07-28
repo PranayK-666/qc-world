@@ -17,20 +17,15 @@ const Blog7 = () => {
       </p>
       <div className="blog-content">
         <p>
-          May 20th marked the beginning of one of the most awesome challenges in
-          the field of Quantum Computing. The IBM Quantum Challenge commemorated
-          the history of quantum computing, as this year marks the 40th
-          anniversary of the Physics of Computation Conference, where the
-          concept of computing systems based on quantum mechanics was conceived.
-          Each of the five challenges was built on the Field's historical
-          stepping stones.
+          The IBM Quantum Challenge commemorated the history of quantum computing, as this year marks 
+          the 40th anniversary of the Physics of Computation Conference, where the concept of computing systems 
+          based on quantum mechanics was conceived.The challenge pertained of 5 challenges each of which were
+          built on the field's historical stepping stone. 
         </p>
         <p>
           This blog post will take you on a journey about what challenges there
           were and how I came up with the solutions that bagged me one of the
-          top places in the Challenge. Unlike athletic kids I’ve never really
-          liked challenges, but boy was my mind changed with attempting the
-          first Question.
+          top places in the Challenge.
         </p>
         <h3 className="blog-heading">Challenge 1 : Toffoli Gate</h3>
         <p>
@@ -60,14 +55,12 @@ const Blog7 = () => {
           basic quantum gates. This required us to use matrix decomposition to
           break down the large matrix you see above into smaller pieces. To be
           honest, I thought the first exercise would be simple, but it took a
-          surprising amount of time.
+          substantial amount of time.
         </p>
         <p>
-          To be honest, I pushed through with trial and error and was able to
-          complete the circuit shown below in about a day. Another issue was not
-          being able to use the Hadamard gate, but I had already solved that
-          before moving on to the more decomposition of Toffoli gate. So, at a
-          cost of 73, I finally finished the first problem.
+          I pushed through with trial and error and was able to complete the circuit shown below in about a day. 
+          An issue was not being able to use the Hadamard gate, but as I knew the decomposition of the hamard in
+          the required basis gates, this was not that big of a deal. So, with a cost of 73, I finally finished the first problem.
         </p>
         <Image
           imgName={circuit}
@@ -83,9 +76,9 @@ const Blog7 = () => {
           which is based on the difficulty of factoring large prime integers.
         </p>
         <p>
-          The task was to factor the number 35 using only five qubits. This may
-          appear difficult, but half of the materials have already been
-          provided. Our job was to find a unitary U that performs the state
+          The task was to factor the number 35 using only five qubits. 
+          This may appear difficult, but some of the algorithm had already been provided.
+          Our job was to find a unitary U that performs the state
           transformation; take a look at the question for yourself.
         </p>
         <Image imgName={exercise} imgCaption="" imgSource="" />
@@ -146,7 +139,7 @@ const Blog7 = () => {
           imgSource=""
         />
         <p>
-          Two days were finally over and I had also completed the third section
+          Two days were finally over and I had completed the third section
           with a score of 266.
         </p>
         <hr />

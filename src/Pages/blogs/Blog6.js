@@ -1,4 +1,9 @@
 import './blog.css';
+import img1 from '../../assets/img/np_hard_1.png';
+import img2 from '../../assets/img/np_hard_2.png';
+import img3 from '../../assets/img/np_hard_3.png';
+import img4 from '../../assets/img/np_hard_4.png';
+import Image from '../../components/UI/Image/Image';
 
 const Blog6 = () => {
   return (
@@ -94,7 +99,82 @@ const Blog6 = () => {
         </p>
         <h3 className="blog-heading">Qiskit implementation on 3SAT Problem</h3>
         <p>
+          Although solving the traveling salesman problem seems a bit hard,
+          let's try to solve a little simpler NP-Complete problem.The 3
+          satisfiability is a mathematical problem which can be easily solved
+          using IBM’s Qiskit.
+        </p>
+        <p>
           <strong>Problem</strong>
+        </p>
+        <Image imgName={img1} />
+        <p>
+          Each “a” can be either 0 or 1. All the symbols have the following
+          meanings
+        </p>
+        <Image imgName={img2} />
+        <p>
+          The terms within the Parenthesis “()” are said to be clauses. So the
+          above equation has 3 clauses and contains 3 literals inside it. As we
+          have 3 literals the problem is called the 3-SAT problem.
+        </p>
+        <p>
+          The values of “a” for which make the right hand side equal to one are
+          the solutions for the satisfiability problem.
+        </p>
+        <p>
+          <strong>Solution</strong>
+        </p>
+        <p>
+          The first step is to arrange the above problem into{' '}
+          <a
+            href="http://www.cs.utexas.edu/users/moore/acl2/manuals/current/manual/index-seo.php/SATLINK____DIMACS#:~:text=DIMACS%20format%20is%20a%20standard,gives%20the%20competitions'%20official%20description."
+            target="_blank"
+            rel="noreferrer"
+          >
+            DIMACS format
+          </a>
+          .
+        </p>
+        <Image imgName={img3} />
+        <p>
+          Once we are done with that we can use QISKIT Aqua for calling Grover
+          Search Algorithm along with the LogicalExpressionOracle . The Logical
+          Expression Oracle uses the DIMACS format file to get the desired
+          oracle for our particular case. Finally the algorithm is executed with
+          the run command.
+        </p>
+        <Image imgName={img4} />
+        <p>
+          As you can see the solution is [1,-2,3] in the DIMACS format.As a
+          result, the solution in standard Boolean algebra can be expressed as
+          [0,1,0]. Which is one of the solutions to our satisfiability problem.
+        </p>
+        <p>
+          Some of you might wonder why I did not use the plot_histogram command
+          to plot all the solutions, but the output is not accurate, so I would
+          recommend you not to use it.
+        </p>
+        <p>
+          The SAT problem looks purely abstract math but it in reality has a lot
+          of industrial applications, from checking equivalence of Electrical
+          Logic circuits to Artificial Intelligence and Machine Learning. For a
+          more in- depth look into the applications look{' '}
+          <a
+            href="https://eprints.soton.ac.uk/265340/1/jpms-wodes08.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            here
+          </a>
+          .
+        </p>
+        <hr />
+        <p>
+          While solving big NP-complete problems using Quantum Computers at the
+          moment seems a bit far-fetched, the above example proves that we are
+          on the right path and soon we will be able to optimize transport
+          routes, better our industrial practices and much more.
         </p>
         <h3 className="blog-heading">References</h3>
         <ul>
