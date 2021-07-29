@@ -19,6 +19,12 @@ const SideBar = () => {
     padddingTop: '20px',
   };
 
+  const textStyle = {
+    textAlign: 'justify',
+    marginRight: '20px',
+    marginLeft: '20px',
+  };
+
   const changeBackground = () => {
     if (window.scrollY <= 1000) {
       setSidebar(true);
@@ -52,7 +58,10 @@ const SideBar = () => {
             </span>
           </Card.Title>
           <br />
-          <Card.Text></Card.Text>
+          <Card.Text style={textStyle}>
+            Quantum Computing Enthusiast | Undergraduate Researcher | Applied
+            Physics Student | Content Creator
+          </Card.Text>
           <br />
         </Card.Body>
       </Card>
