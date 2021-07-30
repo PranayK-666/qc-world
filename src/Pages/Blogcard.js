@@ -257,7 +257,7 @@ export default function Blogcard() {
             src={img1}
             text="The Depth of a Quantum Circuit"
             label="Quantum Programming"
-            path="/blogs/9"
+            path="/blogs/10"
           />
           {/* <Card.Header as="h4">Parmeet Blog1</Card.Header> */}
           <Card.Body>
