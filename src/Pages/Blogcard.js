@@ -12,6 +12,7 @@ import npHard from '../assets/img/np-hard.png';
 import ckt_5 from '../assets/img/my_journey_part1_9.png';
 import drive3 from '../assets/img/my_journey_part2_3.png';
 import qp from '../assets/img/qp.jpeg';
+import img1 from '../assets/img/1st_depth.png';
 // import Like from './Like';
 
 export default function Blogcard() {
@@ -244,6 +245,28 @@ export default function Blogcard() {
               an exponential rate. Until recently, being a researcher at a
               world-class facility was the only way to get access to a real
               Quantum Computer....
+            </Card.Text>
+            {/* <Like /> */}
+          </Card.Body>
+        </Card>
+      </Link>
+      <Link>
+        <Card className="cardstyle2">
+          <CardItem
+            className="cardstyle2"
+            src={img1}
+            text="The Depth of a Quantum Circuit"
+            label="Quantum Programming"
+            path="/blogs/9"
+          />
+          {/* <Card.Header as="h4">Parmeet Blog1</Card.Header> */}
+          <Card.Body>
+            {/* <Card.Title>Wasssup</Card.Title> */}
+            <Card.Text className="cardinfo">
+              The depth of a Quantum Circuit is the length of the longest path
+              from the preparation to the measurement gate, moving forward in
+              time along qubit wires. Each gate in this longest path is
+              considered as one unit....
             </Card.Text>
             {/* <Like /> */}
           </Card.Body>
