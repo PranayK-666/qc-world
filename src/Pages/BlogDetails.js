@@ -9,6 +9,7 @@ import Blog6 from './blogs/Blog6';
 import Blog7 from './blogs/Blog7';
 import Blog8 from './blogs/Blog8';
 import Blog9 from './blogs/Blog9';
+import Blog10 from './blogs/Blog10';
 import SideBar from '../components/sidebar/SideBar';
 import './blogdetails.css';
 
@@ -51,6 +52,10 @@ const BlogDetails = () => {
     {
       key: 9,
       name: <Blog9 />,
+    },
+    {
+      key: 10,
+      name: <Blog10 />,
     },
   ];
 

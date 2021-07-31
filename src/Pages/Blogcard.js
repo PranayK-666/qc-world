@@ -12,7 +12,8 @@ import npHard from '../assets/img/np-hard.png';
 import ckt_5 from '../assets/img/my_journey_part1_9.png';
 import drive3 from '../assets/img/my_journey_part2_3.png';
 import qp from '../assets/img/qp.jpeg';
-import Like from './Like';
+import img1 from '../assets/img/1st_depth.png';
+// import Like from './Like';
 
 export default function Blogcard() {
   return (
@@ -75,7 +76,7 @@ export default function Blogcard() {
               medications do not have any hazardous or severe side effects on
               the Human Body....
             </Card.Text>
-            <Like />
+            {/* <Like /> */}
           </Card.Body>
         </Card>
       </Link>
@@ -101,7 +102,7 @@ export default function Blogcard() {
               quantum registers and logic gates are the building blocks of these
               quantum computers.
             </Card.Text>
-            <Like />
+            {/* <Like /> */}
           </Card.Body>
         </Card>
       </Link>
@@ -128,7 +129,7 @@ export default function Blogcard() {
               down one day and try to find the most efficient route through each
               delivery location in the city, but wait!!
             </Card.Text>
-            <Like />
+            {/* <Like /> */}
           </Card.Body>
         </Card>
       </Link>
@@ -153,7 +154,7 @@ export default function Blogcard() {
               that normal computers use, Quantum computers use qubits or quantum
               bits. These qubits follow the trends of subatomic particles .
             </Card.Text>
-            <Like />
+            {/* <Like /> */}
           </Card.Body>
         </Card>
       </Link>
@@ -177,7 +178,7 @@ export default function Blogcard() {
               have shown to be error prone, their devices on the other hand trap
               individual ionized ytterbium atoms as their qubits.
             </Card.Text>
-            <Like />
+            {/* <Like /> */}
           </Card.Body>
         </Card>
       </Link>
@@ -202,7 +203,7 @@ export default function Blogcard() {
               Conference, where the concept of computing systems based on
               quantum mechanics was conceived....
             </Card.Text>
-            <Like />
+            {/* <Like /> */}
           </Card.Body>
         </Card>
       </Link>
@@ -222,7 +223,7 @@ export default function Blogcard() {
               It took me 2 days to finish the first three questions and now I
               was up against the final two questions....
             </Card.Text>
-            <Like />
+            {/* <Like /> */}
           </Card.Body>
         </Card>
       </Link>
@@ -245,7 +246,29 @@ export default function Blogcard() {
               world-class facility was the only way to get access to a real
               Quantum Computer....
             </Card.Text>
-            <Like />
+            {/* <Like /> */}
+          </Card.Body>
+        </Card>
+      </Link>
+      <Link>
+        <Card className="cardstyle2">
+          <CardItem
+            className="cardstyle2"
+            src={img1}
+            text="The Depth of a Quantum Circuit"
+            label="Quantum Programming"
+            path="/blogs/10"
+          />
+          {/* <Card.Header as="h4">Parmeet Blog1</Card.Header> */}
+          <Card.Body>
+            {/* <Card.Title>Wasssup</Card.Title> */}
+            <Card.Text className="cardinfo">
+              The depth of a Quantum Circuit is the length of the longest path
+              from the preparation to the measurement gate, moving forward in
+              time along qubit wires. Each gate in this longest path is
+              considered as one unit....
+            </Card.Text>
+            {/* <Like /> */}
           </Card.Body>
         </Card>
       </Link>
