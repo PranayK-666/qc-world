@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import TeamMember from '../teamMember/TeamMember';
 import writer from '../../assets/img/writer.png';
 import developer from '../../assets/img/developer.jpg';
-import developer2 from '../../assets/img/developer2.jpg';
+import developerjr from '../../assets/img/developer2.jpg';
 
 function Footer() {
   return (
@@ -35,7 +35,7 @@ function Footer() {
               about="Developer"
               github="https://github.com/priyanshty19"
               linkedin="https://www.linkedin.com/in/priyanshtyagi"
-              img={developer2}
+              img={developerjr}
             />
           </div>
         </div>
